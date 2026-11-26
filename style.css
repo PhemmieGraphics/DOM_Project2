@@ -1,0 +1,46 @@
+
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Color box */
+#color-box {
+    width: 250px;
+    height: 250px;
+    background-color: #3498db;
+    margin: 0 auto 30px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button */
+#change-color-btn {
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #444;
+}
